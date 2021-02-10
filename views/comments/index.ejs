@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Home</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center flex-column align-items-center w-60">
+        <h1>Welcome to the CRUD comment section</h1>
+        <ul>
+            <% for(let c of comments) { %>
+                <li class="border p-2">
+                    <%= c.comment %> <b>-<%= c.username %> </b> 
+                    <button class="btn btn-success btn-sm align-self-end"><a href="/<%= c.id %> ">Details</a></button>
+                    <button class="btn btn-warning btn-sm"><a href="/<%= c.id%>/edit">Edit</a></button>
+                </li>
+                <% } %>
+        </ul>
+        <button class="btn border"><a href="/new">Add comment</a></button>
+    </div>
+
+
+</body>
+
+</html>
