@@ -6,4 +6,5 @@ This is my first attempt at building out a full CRUD application. This project i
 
 ### About.
 This is my first attempt at creating a fully functioning CRUD application. Utilising Express it was fairly straight forward implementing my RESTful routes, the only issue I ran into during the routing stage was patching through the edit.ejs payload. To get around this I installed method-override to trick html into doing what I needed it too... 
+<br>
 ![](gitHubImgs/npm-i-method-override.PNG)
