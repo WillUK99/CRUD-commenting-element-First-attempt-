@@ -14,3 +14,10 @@ The comments which are shown on the 'home page' are all hardcoded in as im still
 <br>
 <br>
 ![](gitHubImgs/id-and-delete.PNG)
+<br>
+My focus for this project was not the UX/UI designing aspect it was purely a learning process, that being said I did install bootstrap and link it to all pages on the application as default html styling is blinding.
+<br>
+<br>
+![](gitHubImgs/home.PNG)
+<br>
+#### Thank you for reading.
